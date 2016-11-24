@@ -1,6 +1,6 @@
 # GIT 常用命令
 
-$ git init   将当前文件夹用git仓库管理起来
+$ git init   将当前文件夹用git仓库管理起来<br>
 $ git add .  将所有改动提交到工作缓存区
 $ git status  查看提交状态
 $ git commit -m "注释"    将工作缓存区提交到仓库
