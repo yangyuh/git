@@ -23,16 +23,12 @@ $ git branch -d name 删除分支<br>
 
 ##git使用ssh密钥
 1.查看本地是否有密钥对，如果存在就删除
-
     cd ~/.ssh
     id_dsa id_dsa.pub
 2.重新生成密钥对
-
     ssh-keygen -t rsa -C "your_email@youremail.com"
 然后一直回车
-
 3.查看本地生成的密钥
-
     cat ~/.ssh/id_rsa.pub
 4.登陆你的github帐户。然后 Account Settings -> 左栏点击 SSH Keys -> 点击 Add SSH key
 5.然后你复制上面的公钥内容，粘贴进“Key”文本域内。 title域，你随便填一个都行。
