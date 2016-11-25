@@ -1,1 +1,11 @@
-﻿学习git
+﻿github fork 同步作者 及pull request
+
+1.先把B clone到本地
+	git clone B_REPOSITORY_URL
+2.再cd到本地B的目录，把A作为一个remote加到本地的B中（一般命名为upstream）
+	git remote add upstream A_REPOSITORY_URL
+3.pull另一个A的remote（upstream）的相应分支（比如master）就可以
+ 	git pull upstream master
+4.最后push回github的B_REPOSITORY
+	git push origin master
+5.pull request
