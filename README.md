@@ -33,4 +33,4 @@ $ git branch -d name 删除分支<br>
 
     cat ~/.ssh/id_rsa.pub<br>
 4.登陆你的github帐户。然后 Account Settings -> 左栏点击 SSH Keys -> 点击 Add SSH key<br>
-5.然后你复制上面的公钥内容，粘贴进“Key”文本域内。 title域，你随便填一个都行。
+5.然后你复制上面的公钥内容，粘贴进“Key”文本域内。 title域，你随便填一个都行。 
