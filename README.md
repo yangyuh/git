@@ -6,6 +6,9 @@ $ git status  查看提交状态<br>
 $ git commit -m "注释"    将工作缓存区提交到仓库<br>
 $ git remote add origin repository提交到远程仓库后面是仓库创建仓库产生的链接<br>
 $ git push -u origin master   更新远程代码
+$ git remote -v 查看远程仓库地址
+$ git remote remove [origin] 删除远程仓库地址
+$ git remote add [origin] 添加远程仓库地址
 
 ## 版本回退
 $ git reset --hard commit_id 版本回退<br>
